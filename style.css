@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word ;
+}
+
+
+h1,h2,h3 {
+    font-weight: bold;
+    color: rgb( 209, 157, 54);
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section .modulo p {
+    margin-bottom: 40px;
+}
+
+section .modulo:last-child {
+    margin-bottom: 50px;
+}
+
+section .modulo h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section .modulo.content {
+    padding: 40px 0;
+    background: #ece7d5;
+
+}
+
+section.modulo.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.modulo.parallax-1 {
+    content:  "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.modulo.parallax-1 {
+    background-image: url("arquivos/imagem1.jpg");
+}
+
+section.modulo.parallax-2 {
+    background-image:  url("arquivos/imagem2.jpg");
+}
+
+section.modulo.parallax-3 {
+    background-image: url("arquivos/imagem3.jpg");
+}
+
+section.modulo.parallax h1 {
+    color: rgba(209, 157, 54,);
+    text-align: center;
+    font-size: 80px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+.area-1, .area-2, .area-3 {
+    visibility: hidden;
+}
+
+
+
+
+
